@@ -31,7 +31,11 @@ dotnet test
 - Pagination implemented with `limit`/`offset`. A simple text `q` search is provided on title.
 
 ## Time spent
-Approximately 75 minutes: adding integration tests, README, and small project adjustments.
+ 90 minutes total
+- Modeling (Shareholder, Group, Membership, ContentItem, ContentAudienceGroup) + DbContext: 25 min
+- API endpoints (list + detail, pagination/search, fake auth): 35 min
+- Tests: 15 min
+- README + review: 15 min
 
 ## Notes
 - Visiting `/` will return 404 because there's no root route by design; use `/api/content` instead.
