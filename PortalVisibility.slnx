@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PortalVisibility.Api/PortalVisibility.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PortalVisibility.Tests/PortalVisibility.Tests.csproj" />
+  </Folder>
+</Solution>
